@@ -1,0 +1,51 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: template-project
+
+email:
+  support: support@hadenlabs.com
+
+# Logo for this project
+#logo: docs/logo.png
+
+# License of this project
+license: 'LGPL-3.0'
+
+# Canonical GitHub repo
+github_repo: luismayta/template-project
+
+# Badges to display
+badges:
+  - name: GitHub tag (latest SemVer)
+    image: https://img.shields.io/github/v/tag/luismayta/template-project?label=latest&sort=semver
+    url: https://github.com/luismayta/template-project/releases
+  - name: Latest Release
+    image: https://img.shields.io/github/release/luismayta/template-project
+    url: https://github.com/luismayta/template-project/releases
+  - name: Lint
+    image: https://img.shields.io/github/workflow/status/luismayta/template-project/lint-code
+    url: https://github.com/luismayta/template-project/actions
+  - name: Issues
+    image: https://img.shields.io/github/issues/luismayta/template-project
+    url: https://github.com/luismayta/template-project/issues
+  - name: Conventional Commits
+    image: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow
+    url: https://conventionalcommits.org
+  - name: KeepAChangelog
+    image: https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735
+    url: https://keepachangelog.com
+
+description: |-
+
+  template-project for project
+
+  ### Replace name project to New Project
+
+  ```bash
+    agr 'template-project' 'new-project'
+  ```
