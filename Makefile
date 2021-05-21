@@ -26,7 +26,7 @@ PROJECT := pagerduty-examples
 PYTHON_VERSION=3.8.0
 NODE_VERSION=14.15.5
 PYENV_NAME="${PROJECT}"
-GIT_IGNORES:=python,node,go,zsh
+GIT_IGNORES:=python,node,go,zsh,terraform
 GI:=gi
 
 # issues reviewers
