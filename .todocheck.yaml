@@ -1,4 +1,4 @@
-origin: github.com/luismayta/template-project
+origin: github.com/luismayta/pagerduty-examples
 issue_tracker: GITHUB
 auth:
   type: none

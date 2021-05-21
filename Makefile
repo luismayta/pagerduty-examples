@@ -21,7 +21,7 @@ endif
 TEAM := luismayta
 REPOSITORY_DOMAIN:=github.com
 REPOSITORY_OWNER:=${TEAM}
-PROJECT := template-project
+PROJECT := pagerduty-examples
 
 PYTHON_VERSION=3.8.0
 NODE_VERSION=14.15.5

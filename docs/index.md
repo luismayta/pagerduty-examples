@@ -1,1 +1,1 @@
-# Welcome to template-project documentation
+# Welcome to pagerduty-examples documentation
