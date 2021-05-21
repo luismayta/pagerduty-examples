@@ -1,7 +1,7 @@
 {
-  "name": "@luismayta/template-project",
+  "name": "@luismayta/pagerduty-examples",
   "version": "0.0.0",
-  "description": "template-project",
+  "description": "pagerduty-examples",
   "author": "Luis Mayta <slovacus@gmail.com>",
   "license": "LGPL-3.0",
   "engines": {
@@ -23,9 +23,9 @@
     "ncu:patch": "ncu -u --target patch",
     "prebuild": "mkdirp build && yarn run clean:build:all",
     "precommit": "lint-staged",
-    "prettier": "prettier --config=.github/linters/prettier.config.js --ignore-path=.github/linters/.prettierignore",
+    "prettier": "prettier --config=.github/linters/prettier.config.js --ignore-path=.github/linters/.prettierignore --list-different",
     "prettier:fix": "yarn prettier:lint --write=true",
-    "prettier:lint": "yarn prettier '**/*.{js?(on),ts?(x),scss,md,y?(a)ml,gql,graphql?(s),less,mjml}' --write=false --list-different"
+    "prettier:lint": "yarn prettier '**/*.{js?(on),ts?(x),scss,md,y?(a)ml,gql,graphql?(s),less,mjml}' --write=false"
   },
   "publishConfig": {
     "access": "public",
@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/luismayta/template-project"
+    "url": "https://github.com/luismayta/pagerduty-examples"
   },
   "keywords": [
     "hadenlabs",
@@ -48,41 +48,34 @@
     "tool"
   ],
   "bugs": {
-    "url": "https://github.com/luismayta/template-project/issues"
+    "url": "https://github.com/luismayta/pagerduty-examples/issues"
   },
-  "homepage": "https://github.com/luismayta/template-project#readme",
+  "homepage": "https://github.com/luismayta/pagerduty-examples#readme",
   "dependencies": {},
   "devDependencies": {
-    "@babel/eslint-parser": "^7.13.14",
-    "@commitlint/cli": "^12.1.1",
+    "@commitlint/cli": "^12.1.4",
     "@hadenlabs/commitlint-config": "^0.1.0",
-    "@types/chai": "^4.2.17",
-    "@types/mocha": "^8.2.2",
     "@types/rimraf": "^3.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.22.0",
-    "@typescript-eslint/parser": "^4.22.0",
-    "babel-cli": "^6.26.0",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "@types/handlebars-helpers": "^0.5.2",
     "cross-env": "^7.0.3",
-    "chai": "^4.3.4",
-    "eslint": "^7.24.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-prettier": "^3.3.1",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-promise": "^5.1.0",
     "husky": "^6.0.0",
-    "lint-staged": "^10.5.4",
-    "mocha": "^8.3.2",
-    "prettier": "^2.2.1",
+    "handlebars-helpers": "^0.10.0",
+    "lint-staged": "^11.0.0",
+    "node-plop": "^0.26.2",
+    "plop": "^2.7.4",
+    "prettier": "^2.3.0",
     "prettier-eslint": "^12.0.0",
+    "slugify": "^1.5.3",
     "rimraf": "^3.0.2",
-    "sinon": "^10.0.1",
-    "semantic-release": "^17.4.2",
-    "shelljs": "^0.8.4",
-    "stylelint": "^13.12.0",
-    "stylelint-config-standard": "^21.0.0",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
   },
-  "prettier": "./.github/linters/prettier.config.js",
-  "stylintrc": ".github/linters/.stylintrc"
+  "prettier": "./.github/linters/prettier.config.js"
 }

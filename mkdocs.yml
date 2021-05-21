@@ -1,4 +1,4 @@
-site_name: template-project Documentation
+site_name: pagerduty-examples Documentation
 theme: 'material'
 markdown_extensions:
   - toc:
@@ -15,8 +15,8 @@ extra:
   font:
     text: 'Source Sans Pro'
 
-repo_name: 'luismayta/template-project'
-repo_url: 'https://github.com/luismayta/template-project'
+repo_name: 'luismayta/pagerduty-examples'
+repo_url: 'https://github.com/luismayta/pagerduty-examples'
 copyright: 'Copyright © 2021 <a href="https://hadenlabs.com">hadenlabs</a>'
 
 google_analytics:
