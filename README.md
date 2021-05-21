@@ -12,29 +12,23 @@
 
   -->
 
-# template-project
+# pagerduty-examples
 
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/luismayta/template-project?label=latest&sort=semver)](https://github.com/luismayta/template-project/releases) [![Latest Release](https://img.shields.io/github/release/luismayta/template-project)](https://github.com/luismayta/template-project/releases) [![Lint](https://img.shields.io/github/workflow/status/luismayta/template-project/lint-code)](https://github.com/luismayta/template-project/actions) [![Issues](https://img.shields.io/github/issues/luismayta/template-project)](https://github.com/luismayta/template-project/issues) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735)](https://keepachangelog.com)
+[![GitHub release](https://img.shields.io/github/release/luismayta/pagerduty-examples?style=flat-square)](https://github.com/luismayta/pagerduty-examples/releases/latest) [![Lint](https://img.shields.io/github/workflow/status/luismayta/pagerduty-examples/lint-code)](https://github.com/luismayta/pagerduty-examples/actions?workflow=lint-code) [![CI](https://img.shields.io/github/workflow/status/luismayta/pagerduty-examples/ci)](https://github.com/luismayta/pagerduty-examples/actions?workflow=ci) [![Test](https://img.shields.io/github/workflow/status/luismayta/pagerduty-examples/test)](https://github.com/luismayta/pagerduty-examples/actions?workflow=test) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735)](https://keepachangelog.com)
 
-template-project for project
-
-### Replace name project to New Project
-
-```bash
-  agr 'template-project' 'new-project'
-```
+pagerduty-examples for project
 
 ## Help
 
 **Got a question?**
 
-File a GitHub [issue](https://github.com/luismayta/template-project/issues).
+File a GitHub [issue](https://github.com/luismayta/pagerduty-examples/issues).
 
 ## Contributing
 
 ### Bug Reports & Feature Requests
 
-Please use the [issue tracker](https://github.com/luismayta/template-project/issues) to report any bugs or file feature requests.
+Please use the [issue tracker](https://github.com/luismayta/pagerduty-examples/issues) to report any bugs or file feature requests.
 
 ### Development
 
@@ -75,6 +69,6 @@ All other trademarks referenced herein are the property of their respective owne
 
 The code and styles are licensed under the LGPL-3.0 license [See project license.](LICENSE).
 
-## Don't forget to 🌟 Star 🌟 the repo if you like template-project
+## Don't forget to 🌟 Star 🌟 the repo if you like pagerduty-examples
 
-[Your feedback is appreciated](https://github.com/luismayta/template-project/issues)
+[Your feedback is appreciated](https://github.com/luismayta/pagerduty-examples/issues)
