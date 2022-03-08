@@ -69,7 +69,7 @@
     "husky": "^6.0.0",
     "handlebars-helpers": "^0.10.0",
     "lint-staged": "^11.2.6",
-    "node-plop": "^0.26.2",
+    "node-plop": "^0.30.0",
     "plop": "^2.7.6",
     "prettier": "^2.5.1",
     "prettier-eslint": "^12.0.0",
