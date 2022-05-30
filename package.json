@@ -68,7 +68,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "husky": "^6.0.0",
     "handlebars-helpers": "^0.10.0",
-    "lint-staged": "^12.4.2",
+    "lint-staged": "^12.4.3",
     "node-plop": "^0.31.0",
     "plop": "^3.1.0",
     "prettier": "^2.6.2",
