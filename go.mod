@@ -3,7 +3,7 @@ module github.com/luismayta/pagerduty-examples
 go 1.19
 
 require (
-	github.com/gruntwork-io/terratest v0.43.6
+	github.com/gruntwork-io/terratest v0.43.7
 	github.com/stretchr/testify v1.8.4
 )
 
