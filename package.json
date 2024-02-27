@@ -54,7 +54,7 @@
   "homepage": "https://github.com/luismayta/pagerduty-examples#readme",
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^18.6.1",
+    "@commitlint/cli": "^19.0.1",
     "@hadenlabs/commitlint-config": "^0.1.0",
     "@types/rimraf": "^3.0.2",
     "@typescript-eslint/eslint-plugin": "^7.1.0",
